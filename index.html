@@ -22,22 +22,50 @@
         <div id="menu-sec" class="menu">
             <h2>Menu</h2>
             <ul class="menu-items">
-                <li>Beef Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
-                <li>Elk Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
-                <li>Mushroom Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
-                <li>Turkey Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
-                <li>Veggie Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
-                <li>Green chile Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
-                <li>Hawaii Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+                <li>Beef Burger 
+                    <button onclick="handleIncrease('beef','true')" class="add">+</button>
+                    <button onclick="handleIncrease('beef','false')"  class="remove">-</button> 
+                    <input id="beef" type="text" value="0">
+                </li>
+                <li>Elk Burger 
+                    <button onclick="handleIncrease('elk','true')" class="add">+</button>
+                    <button onclick="handleIncrease('elk','false')" class="remove">-</button> 
+                    <input id="elk" class="count" type="text" value="0">
+                </li>
+                <li>Mushroom Burger 
+                    <button onclick="handleIncrease('mushroom','true')" class="add">+</button>
+                    <button onclick="handleIncrease('mushroom','false')" class="remove">-</button> 
+                    <input id="mushroom" type="text" value="0">
+                </li>
+                <li>Turkey Burger 
+                    <button onclick="handleIncrease('turkey','true')" class="add">+</button>
+                    <button onclick="handleIncrease('turkey','false')" class="remove">-</button> 
+                    <input id="turkey" type="text" value="0">
+                </li>
+                <li>Veggie Burger 
+                    <button onclick="handleIncrease('veggie','true')" class="add">+</button>
+                    <button onclick="handleIncrease('veggie','false')" class="remove">-</button> 
+                    <input id="veggie" type="text" value="0">
+                </li>
+                <li>Green chile Burger 
+                    <button onclick="handleIncrease('green','true')" class="add">+</button>
+                    <button onclick="handleIncrease('green','false')" class="remove">-</button> 
+                    <input id="green" type="text" value="0">
+                </li>
+                <li>Hawaii Burger 
+                    <button onclick="handleIncrease('hawaii','true')" class="add">+</button>
+                    <button onclick="handleIncrease('hawaii','false')" class="remove">-</button> 
+                    <input id="hawaii" type="text" value="0">
+                </li>
             </ul>
             <div class="check-out">
                 <h4>Sub-total: <span>0</span></h4>
-                <h6>Vat: <span>0</span></h6>
+                <h6>Vat <small>(25%)</small> : <span>0</span></h6>
                 <h3>Total: <span>0</span></h3>
                 <button onclick="handleOrder()" id="order-btn">Order</button>
             </div>
         </div>
-            <iframe id="animation" src="https://giphy.com/embed/BYoRqTmcgzHcL9TCy1" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thank-you-thanks-thumbs-up-BYoRqTmcgzHcL9TCy1">via GIPHY</a></p>
+            <iframe id="animation" src="https://giphy.com/embed/BYoRqTmcgzHcL9TCy1" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         
     </main><script src="script.js"></script>
 </body>

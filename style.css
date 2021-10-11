@@ -53,10 +53,10 @@ body{
     border: none;
     font-size: larger;
 }
-#add{
+.add{
     background-color: chartreuse;
 }
-#remove{
+.remove{
     background-color: rgb(247, 21, 21);
 }
 .check-out{
