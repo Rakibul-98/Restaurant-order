@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Bonanza</title>
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="nav">
+            <li><a href="">Home</a></li>
+            <li><a class="active" href="">Menu</a></li>
+            <li><a href="">Booking</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="menu">
+            <h2>Menu</h2>
+            <ul class="menu-items">
+                <li>Beef Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+                <li>Elk Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+                <li>Mushroom Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+                <li>Turkey Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+                <li>Veggie Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+                <li>Green chile Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+                <li>Hawaii Burger <button id="add">+</button><button id="remove">-</button> <input type="text"></li>
+            </ul>
+            <div class="check-out">
+                <h4>Sub-total: <span>0</span></h4>
+                <h6>Vat: <span>0</span></h6>
+                <h3>Total: <span>0</span></h3>
+                <button id="order-btn">Order</button>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
