@@ -28,23 +28,28 @@ body{
     color: black;
 }
 .active{
-    background-color: rgb(223, 219, 219);
+    background-color: rgb(224, 38, 38);
 }
 .menu{
-    margin-left: 100px;
+    min-width: 40%;
+    margin-left: 50px;
     margin-top: 50px;
     position: absolute;
+    margin-right: 20px;
 }
 .menu-items li{
     list-style: decimal;
     padding: 10px 0;
 }
+.price{
+    color: rgb(4, 250, 4);
+}
 .menu-items input{
     width: 60px;
     color: black;
     float: right;
-    margin-left: 10px;
     margin-right: 20px;
+    margin-left: 10px;
     text-align: center;
     font-weight: bolder;
     font-size: large;
