@@ -1,4 +1,4 @@
-function handleIncrease(item,isIncrease) {
+function handleIncreaseDecrease(item,isIncrease) {
     const burgerCount=document.getElementById(item);
     const burgerNumber=parseInt(burgerCount.value);
     if(isIncrease=="true"){
